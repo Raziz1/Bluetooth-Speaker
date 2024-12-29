@@ -158,8 +158,8 @@
 		)
 	)
 	(sheet
-		(at 60.96 72.39)
-		(size 12.7 6.35)
+		(at 38.1 50.8)
+		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -170,7 +170,7 @@
 		)
 		(uuid "efb45619-a5e6-4892-bafe-5c366eb485fc")
 		(property "Sheetname" "USB-C-Sheet"
-			(at 60.96 71.6784 0)
+			(at 38.1 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,13 +179,33 @@
 			)
 		)
 		(property "Sheetfile" "USB-C-Sheet.kicad_sch"
-			(at 60.96 79.3246 0)
+			(at 38.1 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "D-" input
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e43f31aa-0b14-49c9-a6e2-a08c66545736")
+		)
+		(pin "D+" input
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83bf78ca-3781-41ac-ac82-90974f7914dd")
 		)
 		(instances
 			(project "Bluetooth-Speaker-KiCad"
