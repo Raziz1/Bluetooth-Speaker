@@ -1,0 +1,203 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 62.23 60.96)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c3b2c28-714a-4ae6-8f41-30f8e012e5c3")
+		(property "Sheetname" "ESP32-C3-WROOM-02"
+			(at 62.23 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-C3-WROOM-02.kicad_sch"
+			(at 62.23 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a86f8066-c720-47a7-bcfd-83c02399f6f9")
+		(property "Sheetname" "Audio-Amplifier-Sheet"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio-Amplifier-Sheet.kicad_sch"
+			(at 63.5 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc6943ee-814a-4ecb-a2eb-c6053282fb74")
+		(property "Sheetname" "Power-Page"
+			(at 68.58 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power-Page.kicad_sch"
+			(at 68.58 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 48.26)
+		(size 22.86 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e07f31fd-62a5-449c-ba28-9e9856dc8a53")
+		(property "Sheetname" "Charging-Page"
+			(at 60.96 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Charging-Page.kicad_sch"
+			(at 60.96 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 72.39)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efb45619-a5e6-4892-bafe-5c366eb485fc")
+		(property "Sheetname" "USB-C-Sheet"
+			(at 60.96 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C-Sheet.kicad_sch"
+			(at 60.96 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
