@@ -386,26 +386,6 @@
     [
       "d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9",
       "Root"
-    ],
-    [
-      "2c3b2c28-714a-4ae6-8f41-30f8e012e5c3",
-      "ESP32-C3-WROOM-02"
-    ],
-    [
-      "bc6943ee-814a-4ecb-a2eb-c6053282fb74",
-      "Power-Page"
-    ],
-    [
-      "e07f31fd-62a5-449c-ba28-9e9856dc8a53",
-      "Charging-Page"
-    ],
-    [
-      "efb45619-a5e6-4892-bafe-5c366eb485fc",
-      "USB-C-Sheet"
-    ],
-    [
-      "a86f8066-c720-47a7-bcfd-83c02399f6f9",
-      "Audio-Amplifier-Sheet"
     ]
   ],
   "text_variables": {}
