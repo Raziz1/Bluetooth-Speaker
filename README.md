@@ -55,6 +55,17 @@ For the charger management IC I ended up settling on the [MAX1811](https://www.a
 # Firmware
 
 # Schematic Design
+## USB-C
+For the USB-C interface, I opted for a minimal power delivery interface and simply added 5.1k pull-down resistors on both CC lines. Consequently, with a compatible power source (host), this device should be able to draw up to 3A of current.
+
+## MAX1811 (Charging Management IC)
+* Battery Regulation Voltage-Select Input was set to high so that the battery regulation set point is 4.20V
+* Battery Regulation Current-Selection Input was set to high to default to a 500mA maximum battery regulation current.
+    * This charger IC is on the slower side. There exists much higher power charger management IC'selected
+
+## RT6150B-33GQW (Current Mode Buck-Boost Converter)
+* The RT6150A/B is a high efficiency, fixed frequency, BuckBoost DC-DC converter that operates from input voltages above, below or equal to the output voltage.
+* Inductor selection:
 
 # PCB Layout
 
