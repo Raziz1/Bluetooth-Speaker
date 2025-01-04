@@ -5858,6 +5858,18 @@
 		(uuid "fd0b54f6-2cfa-4a84-ba8f-1f08b4a382b9")
 	)
 	(rectangle
+		(start 113.03 41.91)
+		(end 157.48 88.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 387fbd44-f41b-433d-a45f-e8a8398a5184)
+	)
+	(rectangle
 		(start 165.1 27.94)
 		(end 363.22 109.22)
 		(stroke
@@ -5871,7 +5883,7 @@
 	)
 	(rectangle
 		(start 234.95 113.03)
-		(end 365.76 198.12)
+		(end 365.76 217.17)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5919,7 +5931,7 @@
 	)
 	(text "USB-C Interface"
 		(exclude_from_sim no)
-		(at 95.25 37.084 0)
+		(at 95.25 35.052 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5952,6 +5964,17 @@
 			)
 		)
 		(uuid "59ffd41e-b08a-4d23-b36b-e252156a799b")
+	)
+	(text "ESD Protection"
+		(exclude_from_sim no)
+		(at 136.144 49.276 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "9242e8f9-f620-4e4e-9f09-066d406fbd88")
 	)
 	(text "Buck/Boost Converter"
 		(exclude_from_sim no)
