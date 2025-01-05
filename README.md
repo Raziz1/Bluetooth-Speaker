@@ -88,4 +88,21 @@ WDFN-10L 2.5x2.5 package
 
 # PCB Layout
 
+# BOM
+
 # Characterization
+
+# Resources
+* [How to design an ESP32 PCB with KiCad (in less than 25 minutes)
+](https://www.youtube.com/watch?v=jiJGbWOSdMo)
+* [ESP32 + PCB Antenna Hardware Design Tutorial - Phil's Lab #90
+](https://www.youtube.com/watch?v=yxU_Kw2de08)
+* [ESP32 PCB Layout Design](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32c2/pcb-layout-design.html)
+* [All About USB-C: Example Circuits
+](https://hackaday.com/2023/08/07/all-about-usb-c-example-circuits/)
+* [ESP32 Dev Kit Schematic Example](https://dl.espressif.com/dl/schematics/SCH_ESP32-C3-DEVKITC-02_V1_1_20210126A.pdf)
+* [I2S MAX98357 Bluetooth Speaker project for ESP32 microcontroller / Programming Arduino IDE](https://www.youtube.com/watch?v=24pk28oqVQI)
+* [ESP32 Audio Output with I2S DMA and the MAX98357A Class D Amplifier](https://www.youtube.com/watch?v=At8PDQ3g7FQ)
+* [ESP32-A2DP](https://github.com/pschatzmann/ESP32-A2DP)
+* [ESP32 DAC Audio Analog Output With Examples (Arduino IDE)](https://deepbluembedded.com/esp32-dac-audio-arduino-examples/)
+* [Sound with ESP32 – I2S Protocol](https://dronebotworkshop.com/esp32-i2s/)
