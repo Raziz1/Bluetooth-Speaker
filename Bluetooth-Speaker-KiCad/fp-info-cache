@@ -1,4 +1,4 @@
-24110410915233638
+24113883095631225
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54774,6 +54774,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DMG2305UX_7 (1)
+SOT91P240X110-3N_DMG2305UX-7
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -97950,6 +97957,13 @@ igbt diode module
 0
 25
 25
+USB4105_GF_A
+GCT_USB4105-GF-A
+
+
+0
+16
+16
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
