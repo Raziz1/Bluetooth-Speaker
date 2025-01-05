@@ -65,7 +65,26 @@ For the USB-C interface, I opted for a minimal power delivery interface and simp
 
 ## RT6150B-33GQW (Current Mode Buck-Boost Converter)
 * The RT6150A/B is a high efficiency, fixed frequency, BuckBoost DC-DC converter that operates from input voltages above, below or equal to the output voltage.
-* Inductor selection:
+
+### Inductor Selection
+* ${L_1=\frac{V_{out}\cdot \left(V_{in\left(max\right)}-V_{out}\right)}{f\cdot ΔI_L\cdot V_{out}}=\frac{3.3\cdot \:\left(5-3.3\right)}{1E6\cdot 0.15\cdot \:3.3} = 7.48uH}$
+* ${L_2=\frac{V_{in\left(min\right)}\cdot \:\left(V_{out}-V_{in\left(min\right)}\right)}{f\cdot \:ΔI_L\cdot \:V_{out}}=\frac{3.1\cdot \:\:\left(3.3-3.1\right)}{1E6\cdot \:0.150\cdot \:\:3.3}=1.25uH}$
+* ${ΔI_L}$ The ripple current was chosen to be 30% of the suggested ESP32 power supply output current of at least 500mA.
+* The datasheet suggests <i>"The recommended inductor value range is between 1.5μH and 4.7μH."</i>
+* Therefore, based on the datasheets suggestions and calculations a reasonable middle ground was to select an inductance of 4.7uH.
+
+### Output Capacitor Selection
+* ${ΔV_{out},\:peak\:\left(Buck\right)=100mV=\frac{V_{out}\cdot \:\left(V_{in}-V_{out}\right)}{V_{in}\cdot \:8\cdot \:L\cdot \:\left(f_{osc}\right)^2\cdot \:C_{out}}=\frac{3.3\cdot \:\left(5-3.3\right)}{5\cdot \:8\cdot \:\left(4.7E-6\right)\cdot \:\left(1E6\right)^2\cdot \:C_{out}}\rightarrow C_{out}=2.98E-7F}$
+* ${ΔV_{out},\:peak\:\left(Boost\right)=100mV=\frac{I_{Load}\cdot \left(V_{out}-V_{in}\right)}{C_{out}\cdot V_{out}\cdot f_{osc}}=\frac{0.5\:\cdot \:\left(3.3-3.1\right)}{C_{out}\cdot \:3.3\cdot \:\left(1E6\right)}\rightarrow C_{out}=3.03E-7F}$
+* The above calculations assume an output ripple voltage of 100mV. Given that said we will use the value that is used on the Raspberry Pi PICO (47uF) which is significantly higher and will result in a significantly smaller output ripple voltage.
+
+### Thermal Considerations
+* PD(MAX) = (125°C − 25°C) / (30.5°C/W) = 3.28W for
+WDFN-10L 3x3 package
+
+* PD(MAX) = (125°C − 25°C) / (40.9°C/W) = 2.44W for
+WDFN-10L 2.5x2.5 package 
+
 
 # PCB Layout
 
