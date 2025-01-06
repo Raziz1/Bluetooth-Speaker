@@ -4399,12 +4399,12 @@
 		(uuid "ff2d050d-d3b0-48b3-bf98-f301e5c4e5ae")
 	)
 	(no_connect
-		(at 127 67.31)
-		(uuid "14de7060-05fa-4047-b5dd-7ab22cda03ee")
-	)
-	(no_connect
 		(at 83.82 69.85)
 		(uuid "442eeeb8-6410-45b5-b9bd-c40f7e7d16f7")
+	)
+	(no_connect
+		(at 127 59.69)
+		(uuid "4db80055-9a3f-4286-908e-d318e7d15838")
 	)
 	(no_connect
 		(at 127 74.93)
@@ -4415,8 +4415,8 @@
 		(uuid "6a9e7d73-f243-45ec-b396-5e1d924e2938")
 	)
 	(no_connect
-		(at 127 69.85)
-		(uuid "ab5d5f63-c09d-4802-a278-6d4cc437ac57")
+		(at 127 62.23)
+		(uuid "be95eb18-6e26-4358-93b0-dde4ae5c6f49")
 	)
 	(no_connect
 		(at 43.18 67.31)
@@ -4531,16 +4531,6 @@
 			(type default)
 		)
 		(uuid "1d3538c5-9a75-491e-9436-f5b2af28b6f9")
-	)
-	(wire
-		(pts
-			(xy 114.3 59.69) (xy 127 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ee6ea46-03b8-47ee-a11c-ea5366430c16")
 	)
 	(wire
 		(pts
@@ -4801,6 +4791,16 @@
 			(type default)
 		)
 		(uuid "5016328c-e3bf-494d-80f0-2633daaa6b09")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5128915f-9beb-437f-a394-44cf6d225511")
 	)
 	(wire
 		(pts
@@ -5294,16 +5294,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 62.23) (xy 127 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91fe5c5-072c-4f3e-84fc-d4bd877652cb")
-	)
-	(wire
-		(pts
 			(xy 118.11 189.23) (xy 153.67 189.23)
 		)
 		(stroke
@@ -5411,6 +5401,16 @@
 			(type default)
 		)
 		(uuid "bb91caa7-e98a-45d8-a269-9fe0b7e1608d")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcbe910-67dd-4098-9b6b-1ebb72334584")
 	)
 	(wire
 		(pts
@@ -5877,6 +5877,17 @@
 		)
 		(uuid "f7774566-1299-4c3d-9ddc-92ce9b41f2e1")
 	)
+	(label "DProtect_+"
+		(at 142.24 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0871a390-5ac6-408e-80bd-f890f706f12a")
+	)
 	(label "I2S_DIN"
 		(at 143.51 186.69 0)
 		(fields_autoplaced yes)
@@ -5909,17 +5920,6 @@
 			(justify left bottom)
 		)
 		(uuid "1d615514-4595-45ec-8142-9e76df08541b")
-	)
-	(label "DProtect_+"
-		(at 142.24 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "218da01b-f59f-452c-a379-6802e012c29c")
 	)
 	(label "Boot_Strap_2"
 		(at 179.07 170.18 90)
@@ -5954,17 +5954,6 @@
 		)
 		(uuid "34fa46e6-a783-410d-8e97-18fead3e5292")
 	)
-	(label "DProtect_-"
-		(at 142.24 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ef58e50-a94d-4284-b33c-30c22afd1784")
-	)
 	(label "I2S_BCLK"
 		(at 143.51 181.61 0)
 		(fields_autoplaced yes)
@@ -5988,7 +5977,7 @@
 		(uuid "4f048d7c-c7e9-4f7f-b33c-489a70fbd791")
 	)
 	(label "DProtect_+"
-		(at 115.57 62.23 0)
+		(at 115.57 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5996,7 +5985,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6579776a-3c8a-44ef-9137-9d84905662a6")
+		(uuid "5b76375a-6be6-4abc-9e65-ee491f6a3848")
 	)
 	(label "ESP_EN"
 		(at 217.17 151.13 90)
@@ -6075,6 +6064,17 @@
 		)
 		(uuid "aa4fdf57-a38a-4309-b728-4934d4aa651d")
 	)
+	(label "DProtect_-"
+		(at 142.24 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa87a345-ee17-4f87-ae97-5fc57fed1701")
+	)
 	(label "I2S_BCLK"
 		(at 266.7 160.02 0)
 		(fields_autoplaced yes)
@@ -6120,17 +6120,6 @@
 		(uuid "cbc01420-f323-4816-80fe-08c780bda0ac")
 	)
 	(label "D+"
-		(at 115.57 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd8ee471-0b3d-4a1e-a156-75009e9723ba")
-	)
-	(label "D+"
 		(at 92.71 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6162,6 +6151,17 @@
 			(justify left bottom)
 		)
 		(uuid "e5f51edc-6fd1-4786-803e-814c93699e07")
+	)
+	(label "D+"
+		(at 115.57 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef7bdd55-f9f2-4183-95cf-865af4df2fb8")
 	)
 	(label "D+"
 		(at 34.29 62.23 180)
@@ -10028,7 +10028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "Battery_POS"
 			(at 252.73 149.86 0)
 			(effects
 				(font
