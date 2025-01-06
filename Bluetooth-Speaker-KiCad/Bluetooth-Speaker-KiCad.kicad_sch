@@ -4249,12 +4249,6 @@
 		(uuid "4be44b9f-6df2-420f-9ac2-5edf9f92e61b")
 	)
 	(junction
-		(at 298.45 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51311079-47fa-43aa-8316-84cd2af6f3d7")
-	)
-	(junction
 		(at 186.69 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4367,6 +4361,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef38c07-3b92-4d88-af80-5424a3814889")
+	)
+	(junction
+		(at 298.45 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b42afdee-7dd9-4b4f-9aed-fa63d6f523ac")
 	)
 	(junction
 		(at 237.49 60.96)
@@ -5344,6 +5344,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 242.57) (xy 45.72 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a30599-903f-427f-b5f8-d15d15cfb081")
+	)
+	(wire
+		(pts
 			(xy 252.73 167.64) (xy 252.73 168.91)
 		)
 		(stroke
@@ -6184,17 +6194,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa2da999-ab0c-471d-9bc7-32baf7532710")
-	)
-	(label "Battery_NEG"
-		(at 45.72 242.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa9653b3-8d59-499b-a832-1745d52b8ead")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7113,6 +7112,121 @@
 			(project "Bluetooth-Speaker-KiCad"
 				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio:MAX98357A")
+		(at 300.99 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2f2687-df88-405d-ae98-736ac59cc6ca")
+		(property "Reference" "U6"
+			(at 303.1841 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX98357A"
+			(at 303.1841 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm_ThermalVias"
+			(at 299.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+			(at 300.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(at 300.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10f52cfc-f6f0-4493-a1ef-a5ec27adffee")
+		)
+		(pin "4"
+			(uuid "e58906c5-ddf8-4c91-a9cb-20f0f30936f4")
+		)
+		(pin "6"
+			(uuid "58798ffb-5eb0-449a-a748-131f2437c7c9")
+		)
+		(pin "5"
+			(uuid "0a493971-5d75-42ef-850a-c05b8c9f5294")
+		)
+		(pin "10"
+			(uuid "6545ee17-21ab-4168-9260-c7cf137b63e7")
+		)
+		(pin "17"
+			(uuid "dd1d6344-06cd-43cd-b27e-f86cc4e67784")
+		)
+		(pin "8"
+			(uuid "760a8b69-6ab1-4fa8-a731-d379d0d8c4c1")
+		)
+		(pin "13"
+			(uuid "1c35de10-9f8a-47fe-ad9a-1e724c0e2c8a")
+		)
+		(pin "12"
+			(uuid "6fb848a6-107a-4020-b4c3-40526f2c321d")
+		)
+		(pin "1"
+			(uuid "a81abc00-0e5f-4ca8-9891-68c6c470d1f3")
+		)
+		(pin "16"
+			(uuid "970f1bcf-3912-4b0e-8cff-9f15d09ee73e")
+		)
+		(pin "15"
+			(uuid "b445b927-5d7d-4623-84c0-075d3b1859d1")
+		)
+		(pin "14"
+			(uuid "ba14c57b-a770-40dc-b345-a1b97955e5ff")
+		)
+		(pin "2"
+			(uuid "ac715e3d-0ab1-4dd4-b18d-80994c0986a7")
+		)
+		(pin "11"
+			(uuid "055a12e6-d76e-4089-99b1-1cf96173aae2")
+		)
+		(pin "7"
+			(uuid "0d6298ff-2c0a-4c75-944c-4743ab76e22e")
+		)
+		(pin "9"
+			(uuid "3aec9022-fc39-40ef-9de2-a9055b5d9b71")
+		)
+		(instances
+			(project ""
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8124,6 +8238,72 @@
 			(project "Bluetooth-Speaker-KiCad"
 				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6512d04b-f6e0-4b3f-ab3f-814a3e75c43d")
+		(property "Reference" "#PWR032"
+			(at 45.72 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ef23be3-68f6-4824-ac63-094a59000a21")
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10070,121 +10250,6 @@
 			(project "Bluetooth-Speaker-KiCad"
 				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio:MAX98357A")
-		(at 300.99 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df3d63a2-43b0-4be1-8f59-e4958ca2dd01")
-		(property "Reference" "U4"
-			(at 303.1841 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX98357A"
-			(at 303.1841 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
-			(at 299.72 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
-			(at 300.99 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
-			(at 300.99 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e64de41d-27ec-4f41-ba7d-f7d0ec0b30e1")
-		)
-		(pin "12"
-			(uuid "c3590571-5faf-4d57-83c9-9c579584ae3d")
-		)
-		(pin "6"
-			(uuid "04247dc9-aad9-4709-9705-1147d195781e")
-		)
-		(pin "17"
-			(uuid "48616616-5082-4d32-ae39-cf95d842233b")
-		)
-		(pin "2"
-			(uuid "8a27241e-f689-45eb-aa2a-08969bef19d4")
-		)
-		(pin "10"
-			(uuid "71358119-602e-404b-a03f-0c625c060b12")
-		)
-		(pin "16"
-			(uuid "4d7aae40-47de-40f1-a753-f48131eef358")
-		)
-		(pin "13"
-			(uuid "f9f5a0e0-c458-420b-952b-42b002462e15")
-		)
-		(pin "11"
-			(uuid "6606920d-9198-4b64-a8dd-fa7f1eca2f25")
-		)
-		(pin "1"
-			(uuid "6c8fe988-a88e-4a02-a325-f65d0a798f32")
-		)
-		(pin "14"
-			(uuid "aab29220-aca5-41a7-8a4f-876437f41dbb")
-		)
-		(pin "3"
-			(uuid "5e9d782a-f3df-4184-b93c-3701b82e4dfb")
-		)
-		(pin "7"
-			(uuid "b91ebc75-1ca3-4f57-829b-d7a9e729520e")
-		)
-		(pin "8"
-			(uuid "af7ecddf-ec4c-484c-aa88-c7232d433872")
-		)
-		(pin "15"
-			(uuid "bbac2e96-a749-46ad-aaea-af75a369bf31")
-		)
-		(pin "9"
-			(uuid "e9a2fb83-bb1d-4019-aef2-f57b2014c2c8")
-		)
-		(pin "5"
-			(uuid "5e6bdc39-3fe4-4ced-869e-19a23d0f3efe")
-		)
-		(instances
-			(project ""
-				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
-					(reference "U4")
 					(unit 1)
 				)
 			)

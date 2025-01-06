@@ -1,6 +1,11 @@
 # Bluetooth-Speaker 🛜🔊
  PCB design for a custom bluetooth speaker
 
+<p align="center">
+    <img title="KiCad PCB Render" alt="KiCad PCB Render" src="./Images/Bluetooth-Speaker-KiCad-Render.png" width ="75%">
+</p>
+<p align="center"><i>KiCad Render</i></p>
+
 ## Design Considerations
 The goal of this project was to design a simple Bluetooth speaker using parts I already had at home, along with components available in the current KiCad library. This approach aimed to simplify the design process.
 Based on the above goal I selected the following components: 
