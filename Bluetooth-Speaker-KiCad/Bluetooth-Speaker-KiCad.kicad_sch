@@ -5781,6 +5781,18 @@
 		(uuid 74463739-bf37-4108-9c83-5cab3f169d10)
 	)
 	(rectangle
+		(start 102.87 219.71)
+		(end 184.15 274.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8036162a-d3d4-418d-a031-224b271db86f)
+	)
+	(rectangle
 		(start 20.32 219.71)
 		(end 101.6 274.32)
 		(stroke
@@ -5862,6 +5874,18 @@
 			)
 		)
 		(uuid "b00b7c58-7189-4240-8b60-ca573e2ccc53")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 144.78 225.806 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "d4e6ebe2-3731-4bec-b4e7-5f05ab3b9786")
 	)
 	(text "Audio Amplifier"
 		(exclude_from_sim no)

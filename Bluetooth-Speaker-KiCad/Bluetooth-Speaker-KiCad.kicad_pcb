@@ -193,7 +193,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0.7275 1.76 360)
+			(at 0.7275 1.76 0)
 			(layer "F.SilkS")
 			(uuid "00e74ae9-f5c8-44cf-af7f-112cd0cddaed")
 			(effects
@@ -204,7 +204,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2b811310-bca3-46f9-8ba3-7d10c87b3740")
 			(effects
@@ -359,7 +359,7 @@
 			(uuid "8153a327-3d14-4d2e-92f9-d9faccd1ec0c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f2c5deea-3f5d-4933-bc7a-d7c86cfff828")
 			(effects
@@ -397,6 +397,141 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "033e8ab1-99a9-45a7-9318-fe63a45d6da1")
+		(at 2.175 18.225)
+		(descr "Mounting Hole 2.2mm, M2, DIN965")
+		(tags "mounting hole 2.2mm m2 din965")
+		(property "Reference" "H4"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "1fc7efba-d83f-457f-9fd9-6db705351b2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "57bf828c-8a7c-4478-b886-1a51411538e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326b49c9-5fd3-427c-a58e-a3018d502ef5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2c22287-7512-4370-a5b2-c35e3627f3c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "397544f3-f834-4748-8502-1ade7d36f547")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/eccaf889-be63-486e-bf97-b7c44a4e3a85")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "cad0453a-656b-4759-b3e7-6434558e68c4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0c933c5e-dda4-4685-8c1a-378bc11b2695")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "840708aa-18f2-444b-b8bc-ef7739f48473")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "a29a2a01-0e34-4495-a0fd-ea8161aa36d3")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "2002e2bf-025d-4d01-a6d4-fc2f4c79208a")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "3166771a-ee21-4549-881c-f1c03eb03afd")
 		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -1165,6 +1300,131 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "103708ff-8bd5-455c-ab60-481ed77a0092")
+		(at 2.175 18.225)
+		(descr "Mounting Hole 2.2mm, M2, ISO14580")
+		(tags "mounting hole 2.2mm m2 iso14580")
+		(property "Reference" "H4"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "09c510fc-11b5-47bf-bede-a9b2f5bc3f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "5e4b9c71-acb6-4234-b396-d950c0ec345c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ff6b375-0481-4d99-ae8f-b111b9c23f7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c8bc7e1-cf50-4596-b9bf-52a97994618d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3de31b71-5be9-49d0-869a-04f5247dc80a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "9d0b2ea8-85b5-4ea5-91e2-ed423c58232d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ae8a3146-ce61-4cbc-ac49-a824611cd869")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9b181e1c-bb0b-4c58-91ba-867e1999a595")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f3b1d4dd-afed-4168-83fa-723e45184f82")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(uuid "d7850d4c-115b-44ba-a5b7-d15aadb621d8")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(uuid "2e471739-83c9-41f0-bc1c-75a99703ee0b")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1753edbd-350c-4e80-93a3-35464db88620")
@@ -1385,7 +1645,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 2.5 -0.19 360)
+			(at 2.5 -0.19 0)
 			(layer "F.SilkS")
 			(uuid "2dbc0d96-bc30-4b3e-baab-8ee54ca7369f")
 			(effects
@@ -1396,7 +1656,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7d8034f4-06b2-409d-87dd-6a60b61b7066")
 			(effects
@@ -1551,7 +1811,7 @@
 			(uuid "2fc67f03-fdfb-4dd5-bf67-5df8bb718a6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "77f7eb5e-3514-4690-9a86-6b387adcfdb4")
 			(effects
@@ -2420,7 +2680,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0.9275 2.04 360)
+			(at 0.9275 2.04 0)
 			(layer "F.SilkS")
 			(uuid "fd0e55e0-06cb-4e89-a7e4-a0041d74b17e")
 			(effects
@@ -2431,7 +2691,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ae60a992-32ed-42ea-8465-b51bd33829c2")
 			(effects
@@ -2586,7 +2846,7 @@
 			(uuid "e2590646-c9cc-4e4a-8593-3144b46018a2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "25ba22b5-2311-44ae-86dc-f8ec2bb095cc")
 			(effects
@@ -2846,7 +3106,7 @@
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D1"
-			(at 2.5 -0.64 360)
+			(at 2.5 -0.64 0)
 			(layer "F.SilkS")
 			(uuid "2f95a1d1-0a9e-410e-a7a0-5f5b98701fe4")
 			(effects
@@ -2857,7 +3117,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7924a90d-2100-4bab-8554-d3149327e313")
@@ -3033,7 +3293,7 @@
 			(uuid "73243daf-a2d0-4f00-9dbe-808a162ec6d2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5ea84335-e4d4-47cd-b277-cb0e1b4325f1")
 			(effects
@@ -4322,7 +4582,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0.5975 -1.86 360)
+			(at 0.5975 -1.86 0)
 			(layer "F.SilkS")
 			(uuid "395ce041-1259-495d-86dd-8e11d2cb3e99")
 			(effects
@@ -4333,7 +4593,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0b33f95e-feb0-4f28-82c5-d0ae2e11414f")
 			(effects
@@ -4488,7 +4748,7 @@
 			(uuid "f1c095fe-6fd0-4237-951a-fd1fdeed311c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c057656f-1b00-4ecf-b0f5-b3e061e9683a")
 			(effects
@@ -4526,6 +4786,266 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "788a3143-70f8-47cd-87bd-827236d18dea")
+		(at 2.175 2.175)
+		(descr "Mounting Hole 2.2mm, M2, ISO14580")
+		(tags "mounting hole 2.2mm m2 iso14580")
+		(property "Reference" "H1"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "563acaa0-1104-4503-82a7-b34388fc6187")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "7eb99b4d-9a79-44a8-9ad8-a50fc5c6842d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38666e1c-8b31-45da-8bca-e0f3b5fb3167")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7440993-6511-42c9-abe4-6ccb1db347ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c63afa0-7de9-41ba-8ef5-b49473ec1d47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8cbb7c10-817d-43b5-b8ca-12bfbe54bdb8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "1b3dcbae-7098-46a9-951e-16f2cda7fae7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "11d98435-88dd-4f2b-8b70-1d9f80369b3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "389560db-9bac-4045-90d4-6561ad217d79")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(uuid "b7787a38-8b05-47c1-a237-0b828303bf4b")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(uuid "1ab5f8e0-59bc-4410-82d4-83e641aab7a2")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "79e64028-8e5d-4769-bb3b-1c10254ffc4d")
+		(at 2.175 12.875)
+		(descr "Mounting Hole 2.2mm, M2, DIN965")
+		(tags "mounting hole 2.2mm m2 din965")
+		(property "Reference" "H3"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "9c71759e-05f5-4c71-a0ea-d6f57184138c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "5f294956-0809-48f8-ba05-3eaab876708c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "077bc235-e4c1-41f5-a439-ee446fdb17ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07223057-0b8f-469c-91b5-100f4c69f04a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c40e20ae-9be0-45f9-953a-1d75135c4b29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/a9174b7c-ca63-4a06-b62f-8f2447f76d59")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5e95c142-6d3d-45e5-bd4b-d63636c28e61")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "69131da6-0389-40b3-ad66-c3d23452c967")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0f9edf64-6903-42b7-b6c5-f3e0bc667887")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "6ef9005e-57f5-4863-90e0-179959b64148")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "e0ef2f31-8989-4b76-a284-8a2884a80c04")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "d54ec0c2-7f16-4371-bdf1-fcec0558c362")
 		)
 	)
 	(footprint "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm_ThermalVias"
@@ -5586,7 +6106,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0.4425 -1.43 360)
+			(at 0.4425 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "411ff990-12e3-49ee-8120-a271ac5931a4")
 			(effects
@@ -5597,7 +6117,7 @@
 			)
 		)
 		(property "Value" "400"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a549361f-6c6b-434a-929a-3f69007d8aeb")
 			(effects
@@ -5752,7 +6272,7 @@
 			(uuid "4ddc7405-273d-48e4-9293-ae2eb2692e63")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "403293a2-717f-4ff8-9b0a-ad3c92dc825b")
 			(effects
@@ -5799,7 +6319,7 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor handsolder")
 		(property "Reference" "L1"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "F.SilkS")
 			(uuid "c2ef2d83-1518-42dd-9b1b-5cf966cf070d")
 			(effects
@@ -5810,7 +6330,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 0 1.55 360)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "c9433b01-e3d9-41fc-b231-620dc41f93f9")
 			(effects
@@ -5965,7 +6485,7 @@
 			(uuid "30b63d6e-b2bf-4981-81b1-90db1b9dc8d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "df96ca69-c5d9-4068-8bef-c9fed6c05e58")
 			(effects
@@ -6005,6 +6525,141 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "86c90aa8-fde6-4ddf-87e6-b48afb7fdb9a")
+		(at 2.175 2.175)
+		(descr "Mounting Hole 2.2mm, M2, DIN965")
+		(tags "mounting hole 2.2mm m2 din965")
+		(property "Reference" "H1"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "e63ffe7e-d769-4352-8560-886b73e856dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "fe47ecba-34fd-43b9-a803-dc08ec2518c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb6813b-daa9-4312-a4b5-1e7f8e5dd9b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46823d6d-308f-4695-af3b-f2aaf94df2cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "443204ca-00b7-480a-bc4b-5f5b05b1a48d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/387e0b75-3597-415f-b19d-78c701bb5b0f")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ba227b7e-36d5-4ab0-8aad-253103223acf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5debe65c-8bb8-4af5-89f5-1117a1bbb8ce")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "49ffba21-8c02-44f4-ba2a-35c40038bc23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "0770bada-d529-474d-b301-65e08837c098")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "f496d4ac-f0ab-48a2-983a-153976dac3a6")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "60544678-e28b-4325-ab15-d2a5d6e71e7d")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -6653,7 +7308,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 2.9275 0.04 360)
+			(at 2.9275 0.04 0)
 			(layer "F.SilkS")
 			(uuid "9a0e3443-8fda-4c85-8aa0-ca5a241292a6")
 			(effects
@@ -6664,7 +7319,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5df6b6ee-b458-49d3-8628-6f653c1180bb")
 			(effects
@@ -6819,7 +7474,7 @@
 			(uuid "9ef25de7-c8af-4566-835d-d09a35e328cc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "045be546-4dbd-4bfb-8779-8f31544d9b11")
 			(effects
@@ -6857,6 +7512,141 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "b6671d9a-4512-40c2-9594-d74eab8efa31")
+		(at 2.175 7.525)
+		(descr "Mounting Hole 2.2mm, M2, DIN965")
+		(tags "mounting hole 2.2mm m2 din965")
+		(property "Reference" "H2"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "243c4842-5e84-4e78-a986-66fde857c5d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "4a44303f-bbd3-4c28-b542-98f26d21c748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaf1211b-fd31-4828-90a0-44ef9726b276")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61ddba30-98c6-4eea-b13c-0c6f3877134f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b228a2a-f915-4db7-b585-07706c0f37dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/70bbf351-ecf1-4bdd-843e-a3e62734ca29")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a582eb0e-50a8-45ac-ab13-d820a0691d15")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bc1dd701-400d-49b3-bdfc-c5dff26c1577")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "80147587-1d39-4111-a852-67e7378907a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "67ff8cfe-79f7-461c-a818-29c95a87edbc")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "9602b7f2-6cc0-4a2d-91bd-60b31fff19d5")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "df3d92c9-c103-4c5c-90e2-da4ce04e1e6d")
 		)
 	)
 	(footprint "DMG2305UX_7 (1):SOT91P240X110-3N_DMG2305UX-7"
@@ -8137,6 +8927,256 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "d91a5728-fe05-4334-8b4d-1385a2a78540")
+		(at 2.175 7.525)
+		(descr "Mounting Hole 2.2mm, M2, ISO14580")
+		(tags "mounting hole 2.2mm m2 iso14580")
+		(property "Reference" "H2"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "7c15a403-6187-4c98-ba70-2faf55a3ece1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "12b90a09-1053-4c87-ab17-951edd39f4cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "610e0eb5-04c3-4a63-8407-6e45d92718a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50d3a871-f2d1-450e-8ca6-35c934cb39be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf738b77-1e6c-4272-9853-74bdc750b2ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6e108fb4-2921-4565-b3d9-40500b108ff0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4602659c-c878-4b21-8c68-acd38294e5da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bff44dd3-3539-4267-81b2-73842fd028ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1dc179f3-7126-47ca-91fd-91e09fb5259a")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(uuid "a0df7c8c-f3c0-4502-b4b0-9ac1afd43a81")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(uuid "46d6e69a-8930-4565-adf5-f43537e10237")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "e0415e48-631f-4f86-90d8-dbb83612be24")
+		(at 2.175 12.875)
+		(descr "Mounting Hole 2.2mm, M2, ISO14580")
+		(tags "mounting hole 2.2mm m2 iso14580")
+		(property "Reference" "H3"
+			(at 0 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "cf6fa419-a80d-40ae-a37f-48312733da72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 2.9 0)
+			(layer "F.Fab")
+			(uuid "9f0f55e3-8b6d-45fe-978d-2d6b6227beb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b65ae8f7-09df-4b6b-8a6e-ea9cd062aeb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bb25d48-cfb6-4c89-87cd-85b95acd76c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37e0ab35-8337-4d6c-b706-da782d4de5d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 1.9 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5d202db0-0d0d-45ca-8a2a-7ddccb585785")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "7a7ec9b9-bdbc-42dc-8f3e-a99977859762")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7a074dc8-3af1-49b1-8860-8a8f28eb55de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ebc1dcbc-a4d7-461b-868e-8d08e1c627dc")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "F.Cu" "F.Mask")
+			(uuid "6fb3cf8e-28c2-4c82-bfa1-112830cd6355")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 3.8 3.8)
+			(layers "B.Cu" "B.Mask")
+			(uuid "caeb18ef-d3f1-42b2-a396-201a04bafeb6")
+		)
+	)
 	(footprint "RT6150B-33GQW:SON50P250X250X80-11N"
 		(layer "F.Cu")
 		(uuid "effdffc9-9b23-449e-a32b-c9a2273a5508")
@@ -8633,7 +9673,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at -0.6075 -1.61 360)
+			(at -0.6075 -1.61 0)
 			(layer "F.SilkS")
 			(uuid "e9008beb-34fc-4d55-aacf-757fa3fc0b10")
 			(effects
@@ -8644,7 +9684,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "17ef2fce-879d-44a9-a65c-0bdbf38df253")
 			(effects
@@ -8799,7 +9839,7 @@
 			(uuid "c2fbdc36-5f9d-40f7-9554-5236be95fb46")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1c7ee2e3-8435-4e6a-b643-ec4f2e1d7537")
 			(effects
