@@ -1961,6 +1961,196 @@
 				)
 			)
 		)
+		(symbol "EVP-AWCD4A:EVP-AWCD4A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EVP-AWCD4A"
+				(at -5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EVP-AWCD4A:SW_EVP-AWCD4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EVP-AWBD2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Bad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EVP-AWCD4A_0_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Espressif:ESP32-C3-WROOM-02"
 			(pin_names
 				(offset 1.016)
@@ -3209,151 +3399,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "USB4105-GF-A:USB4105-GF-A"
 			(pin_names
 				(offset 1.016)
@@ -4213,6 +4258,24 @@
 		(uuid "0899fc3d-3f3b-4555-ac85-a4c0d3757b81")
 	)
 	(junction
+		(at 210.82 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ee4a2e6-77be-4aa7-9d4d-b868eb5c5553")
+	)
+	(junction
+		(at 210.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16bc00d4-a35b-4078-a58d-b7f32677430b")
+	)
+	(junction
+		(at 210.82 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228c353b-c899-4b06-9aa2-33844ece1e9f")
+	)
+	(junction
 		(at 83.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4387,6 +4450,12 @@
 		(uuid "e54cae94-ece5-4549-ba7a-59961c2c365f")
 	)
 	(junction
+		(at 210.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6df708a-8d7d-42d5-a60e-59f3c1c29831")
+	)
+	(junction
 		(at 287.02 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4424,7 +4493,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 144.78) (xy 191.77 147.32)
+			(xy 210.82 134.62) (xy 213.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017d1a83-f717-4b00-8fbf-4217d5e32a79")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 180.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4464,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 154.94) (xy 191.77 170.18)
+			(xy 180.34 144.78) (xy 180.34 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4551,6 +4630,16 @@
 			(type default)
 		)
 		(uuid "2344b3ec-e784-466c-a284-9af8cb69ee2f")
+	)
+	(wire
+		(pts
+			(xy 220.98 205.74) (xy 210.82 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278550cb-26f5-45b9-8381-d71b13639814")
 	)
 	(wire
 		(pts
@@ -4661,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "36a9cca9-16dc-4916-a198-6de9224cb49a")
+	)
+	(wire
+		(pts
+			(xy 220.98 184.15) (xy 220.98 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37eaa94f-b7eb-4ac7-83cc-f02eb8046761")
 	)
 	(wire
 		(pts
@@ -4784,7 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 167.64) (xy 217.17 170.18)
+			(xy 210.82 157.48) (xy 210.82 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4801,6 +4900,16 @@
 			(type default)
 		)
 		(uuid "5128915f-9beb-437f-a394-44cf6d225511")
+	)
+	(wire
+		(pts
+			(xy 210.82 153.67) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535def18-49ac-4f89-ad5c-be8244b1eadd")
 	)
 	(wire
 		(pts
@@ -4924,6 +5033,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 203.2) (xy 210.82 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d1e4ba-50f7-41be-a073-d4524596ca5c")
+	)
+	(wire
+		(pts
 			(xy 313.69 157.48) (xy 335.28 157.48)
 		)
 		(stroke
@@ -4934,7 +5053,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 144.78) (xy 179.07 147.32)
+			(xy 167.64 134.62) (xy 167.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4974,7 +5093,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 154.94) (xy 179.07 170.18)
+			(xy 167.64 144.78) (xy 167.64 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5071,6 +5190,16 @@
 			(type default)
 		)
 		(uuid "7c555715-210c-4940-bc6d-bf2fde8d171c")
+	)
+	(wire
+		(pts
+			(xy 220.98 134.62) (xy 220.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808c94a0-7c84-4c84-be92-7b2d7f6dbcf5")
 	)
 	(wire
 		(pts
@@ -5184,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 142.24) (xy 204.47 157.48)
+			(xy 210.82 168.91) (xy 210.82 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5284,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 167.64) (xy 204.47 170.18)
+			(xy 210.82 205.74) (xy 210.82 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5301,6 +5430,16 @@
 			(type default)
 		)
 		(uuid "a94a9433-01a3-421e-b80f-35c3f86b685a")
+	)
+	(wire
+		(pts
+			(xy 210.82 184.15) (xy 213.36 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a971e2d0-869a-41cf-bf13-e58b918f4f0a")
 	)
 	(wire
 		(pts
@@ -5454,6 +5593,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 157.48) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57513f6-aa3a-4af4-96b3-e88ca85c6465")
+	)
+	(wire
+		(pts
 			(xy 90.17 142.24) (xy 81.28 142.24)
 		)
 		(stroke
@@ -5494,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 217.17 157.48)
+			(xy 210.82 119.38) (xy 210.82 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5541,6 +5690,16 @@
 			(type default)
 		)
 		(uuid "d5c86856-fb88-4ed9-ab6b-5d9d4a3c4d34")
+	)
+	(wire
+		(pts
+			(xy 210.82 184.15) (xy 210.82 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e4d513-a1b1-4c8f-87ce-1a3c9c352f2e")
 	)
 	(wire
 		(pts
@@ -5661,6 +5820,16 @@
 			(type default)
 		)
 		(uuid "ee77d66a-6ca7-49c3-873a-b716e6cf2136")
+	)
+	(wire
+		(pts
+			(xy 210.82 134.62) (xy 210.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0be8686-afc1-4131-b799-acff912b515f")
 	)
 	(wire
 		(pts
@@ -5956,7 +6125,7 @@
 		(uuid "1d615514-4595-45ec-8142-9e76df08541b")
 	)
 	(label "Boot_Strap_2"
-		(at 179.07 170.18 90)
+		(at 167.64 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6022,7 +6191,7 @@
 		(uuid "5b76375a-6be6-4abc-9e65-ee491f6a3848")
 	)
 	(label "ESP_EN"
-		(at 217.17 151.13 90)
+		(at 210.82 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6033,7 +6202,7 @@
 		(uuid "6638cf3e-a429-4a7e-9352-94c2fc2f87a3")
 	)
 	(label "Boot_Strap_9"
-		(at 204.47 154.94 90)
+		(at 210.82 181.61 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6044,7 +6213,7 @@
 		(uuid "7360d15b-6267-4b62-8357-ffb1f227119a")
 	)
 	(label "Boot_Strap_8"
-		(at 191.77 170.18 90)
+		(at 180.34 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7389,76 +7558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 217.17 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42566a24-5625-4a7c-8efd-4127ffe98e51")
-		(property "Reference" "SW2"
-			(at 218.44 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 218.44 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 217.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "124d21ca-2b46-4f14-a745-8821e2284397")
-		)
-		(pin "2"
-			(uuid "c9a3072f-d46e-4e9b-b2a0-e5d563e55a38")
-		)
-		(instances
-			(project "Bluetooth-Speaker-KiCad"
-				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 252.73 172.72 180)
 		(unit 1)
@@ -7867,7 +7966,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 170.18 0)
+		(at 210.82 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7876,7 +7975,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd37764-b0b3-4c1e-a817-e5e5d1b0aa7e")
 		(property "Reference" "#PWR027"
-			(at 217.17 176.53 0)
+			(at 210.82 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7984,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 175.26 0)
+			(at 210.82 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +7992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 170.18 0)
+			(at 210.82 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +8001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 170.18 0)
+			(at 210.82 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +8010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 170.18 0)
+			(at 210.82 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +8098,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 144.78 0)
+		(at 167.64 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8008,7 +8107,7 @@
 		(fields_autoplaced yes)
 		(uuid "5eafe254-b8d2-4d7a-87be-a56010aa37be")
 		(property "Reference" "#PWR018"
-			(at 179.07 148.59 0)
+			(at 167.64 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8116,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.07 139.7 0)
+			(at 167.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 144.78 0)
+			(at 167.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 144.78 0)
+			(at 167.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 144.78 0)
+			(at 167.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +8434,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 151.13 180)
+		(at 180.34 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8343,7 +8442,7 @@
 		(dnp no)
 		(uuid "6bfd4160-70bb-4c79-8ee3-2fdf5dbbfe53")
 		(property "Reference" "R7"
-			(at 186.944 151.13 90)
+			(at 175.514 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8450,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 151.13 90)
+			(at 177.8 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8458,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 193.548 151.13 90)
+			(at 182.118 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 151.13 0)
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8476,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 191.77 151.13 0)
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 170.18 0)
+		(at 210.82 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8411,7 +8510,7 @@
 		(fields_autoplaced yes)
 		(uuid "714df066-dd77-4b2b-9e1d-2eb0f66d1ece")
 		(property "Reference" "#PWR026"
-			(at 204.47 176.53 0)
+			(at 210.82 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 175.26 0)
+			(at 210.82 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 170.18 0)
+			(at 210.82 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 170.18 0)
+			(at 210.82 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 170.18 0)
+			(at 210.82 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8633,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 191.77 144.78 0)
+		(at 180.34 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8543,7 +8642,7 @@
 		(fields_autoplaced yes)
 		(uuid "75492a12-13a7-4ef2-a95b-407fb155ed8e")
 		(property "Reference" "#PWR019"
-			(at 191.77 148.59 0)
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8651,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 191.77 139.7 0)
+			(at 180.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 144.78 0)
+			(at 180.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 144.78 0)
+			(at 180.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 144.78 0)
+			(at 180.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,6 +8969,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 217.17 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7effe2c0-b53c-4481-bc4d-527553ac40c0")
+		(property "Reference" "C10"
+			(at 217.17 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 217.17 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 220.98 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87375d8b-ea9e-4ed6-b66f-1f78d6329b85")
+		)
+		(pin "1"
+			(uuid "1528508c-94ac-4b5d-8f51-855c61028bc2")
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 72.39 0)
 		(unit 1)
@@ -8996,6 +9163,137 @@
 			(project "Bluetooth-Speaker-KiCad"
 				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVP-AWCD4A:EVP-AWCD4A")
+		(at 210.82 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86fcb13c-3e93-4667-86dd-95023f999b9d")
+		(property "Reference" "S1"
+			(at 214.63 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EVP-AWCD4A"
+			(at 214.63 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EVP_AWCD4A (1):SW_EVP-AWCD4A"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVP-AWBD2A"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Bad"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a6d1a26-67b5-4e3f-b08f-786159efddbb")
+		)
+		(pin "1"
+			(uuid "9a4d1fc9-3cfd-4713-8e3f-817f9fc92b3c")
+		)
+		(instances
+			(project ""
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -9755,7 +10053,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 151.13 180)
+		(at 167.64 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9763,7 +10061,7 @@
 		(dnp no)
 		(uuid "b85851e9-77a9-4a7a-9491-cf64e291507c")
 		(property "Reference" "R6"
-			(at 174.244 151.13 90)
+			(at 162.814 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +10069,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 176.53 151.13 90)
+			(at 165.1 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +10077,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 180.848 151.13 90)
+			(at 169.418 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +10086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 151.13 0)
+			(at 167.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +10095,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 151.13 0)
+			(at 167.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,76 +10442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 204.47 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1cc877e-cdb9-4c88-839b-42a528018aeb")
-		(property "Reference" "SW1"
-			(at 205.74 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 205.74 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 204.47 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8713500-1179-45f5-a08e-0e1e4b80338b")
-		)
-		(pin "2"
-			(uuid "b03687ab-a2fb-4573-a5f9-6054670f08d3")
-		)
-		(instances
-			(project ""
-				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 252.73 154.94 0)
 		(unit 1)
@@ -10274,6 +10502,205 @@
 			(project "Bluetooth-Speaker-KiCad"
 				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0aad5c0-c8d6-4671-91ec-708f75a492e2")
+		(property "Reference" "C11"
+			(at 217.17 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 217.17 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 220.98 183.1848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cb2f757-55f5-4cf0-8284-242703e34429")
+		)
+		(pin "1"
+			(uuid "eb907cc4-eaf0-416b-9119-a79b4c056d6a")
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVP-AWCD4A:EVP-AWCD4A")
+		(at 210.82 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c08e6f-72bf-4428-8b1b-790605b596bb")
+		(property "Reference" "S2"
+			(at 214.63 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EVP-AWCD4A"
+			(at 214.63 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EVP_AWCD4A (1):SW_EVP-AWCD4A"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVP-AWBD2A"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Bad"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efc0c369-5c3a-4da2-a77b-f0cf8fd13951")
+		)
+		(pin "1"
+			(uuid "b1cd1b32-e0e3-494d-ad2b-09108efd3f88")
+		)
+		(instances
+			(project "Bluetooth-Speaker-KiCad"
+				(path "/d4a3b0fc-2821-415b-ab7a-919b4d2a2ab9"
+					(reference "S2")
 					(unit 1)
 				)
 			)

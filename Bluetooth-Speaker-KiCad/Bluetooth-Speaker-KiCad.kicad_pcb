@@ -399,141 +399,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "033e8ab1-99a9-45a7-9318-fe63a45d6da1")
-		(at 2.175 18.225)
-		(descr "Mounting Hole 2.2mm, M2, DIN965")
-		(tags "mounting hole 2.2mm m2 din965")
-		(property "Reference" "H4"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "1fc7efba-d83f-457f-9fd9-6db705351b2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "57bf828c-8a7c-4478-b886-1a51411538e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "326b49c9-5fd3-427c-a58e-a3018d502ef5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2c22287-7512-4370-a5b2-c35e3627f3c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "397544f3-f834-4748-8502-1ade7d36f547")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/eccaf889-be63-486e-bf97-b7c44a4e3a85")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "cad0453a-656b-4759-b3e7-6434558e68c4")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "0c933c5e-dda4-4685-8c1a-378bc11b2695")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "840708aa-18f2-444b-b8bc-ef7739f48473")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "a29a2a01-0e34-4495-a0fd-ea8161aa36d3")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "2002e2bf-025d-4d01-a6d4-fc2f4c79208a")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "3166771a-ee21-4549-881c-f1c03eb03afd")
-		)
-	)
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "038d5372-4ffa-4477-be99-feee75af783f")
@@ -1300,131 +1165,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "103708ff-8bd5-455c-ab60-481ed77a0092")
-		(at 2.175 18.225)
-		(descr "Mounting Hole 2.2mm, M2, ISO14580")
-		(tags "mounting hole 2.2mm m2 iso14580")
-		(property "Reference" "H4"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "09c510fc-11b5-47bf-bede-a9b2f5bc3f4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "5e4b9c71-acb6-4234-b396-d950c0ec345c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ff6b375-0481-4d99-ae8f-b111b9c23f7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c8bc7e1-cf50-4596-b9bf-52a97994618d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3de31b71-5be9-49d0-869a-04f5247dc80a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "9d0b2ea8-85b5-4ea5-91e2-ed423c58232d")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "ae8a3146-ce61-4cbc-ac49-a824611cd869")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "9b181e1c-bb0b-4c58-91ba-867e1999a595")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "f3b1d4dd-afed-4168-83fa-723e45184f82")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(uuid "d7850d4c-115b-44ba-a5b7-d15aadb621d8")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(uuid "2e471739-83c9-41f0-bc1c-75a99703ee0b")
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1753edbd-350c-4e80-93a3-35464db88620")
@@ -2053,6 +1793,219 @@
 			(uuid "dd9eaf38-0c16-49f9-aecb-7d9fef6765b4")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "322ca4b2-ecb0-4550-bde3-3df35bbf1ec4")
+		(at 131.5 108.5 180)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C11"
+			(at 0 -1.43 360)
+			(layer "F.SilkS")
+			(uuid "a1937a6d-dc1f-45e7-9d0c-5758776ad3c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 0 1.43 360)
+			(layer "F.Fab")
+			(uuid "bd043bf8-e773-4c31-aa16-74b6113eef1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "370a05ae-1868-4364-9507-5bed794db52c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fa63417-b9ee-4333-bf0d-547f969b6b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "773d104e-1715-4736-af3e-2fb53af8419b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/d0aad5c0-c8d6-4671-91ec-708f75a492e2")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e0e1156-cc6e-4d9f-bebc-075b387c5538")
+		)
+		(fp_line
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c25e1a68-226e-4062-8704-6b4560790696")
+		)
+		(fp_line
+			(start 1.65 0.73)
+			(end -1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a17913d4-cc73-4f78-8e2c-5d5ec81b73b0")
+		)
+		(fp_line
+			(start 1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc03603c-9144-4c22-a4e6-115ae1de4398")
+		)
+		(fp_line
+			(start -1.65 0.73)
+			(end -1.65 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a0462ea-7c27-4d7d-842c-a6693249d027")
+		)
+		(fp_line
+			(start -1.65 -0.73)
+			(end 1.65 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ecd3bdf1-7290-4155-8af6-a843cc119f9f")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd10c68b-f877-466a-9c81-476b64151ce9")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d28d425c-e8e8-48fd-95f0-c53ecd6a62e3")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "162c5957-c320-40a6-85fd-b42c04b05f33")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63f5c259-ae19-4cf2-ba72-67b0e508ecf7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(uuid "4e8db0c5-b6f3-4904-9b4d-6591ecc4773f")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.8625 0 180)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 33 "/Boot_Strap_9")
+			(pintype "passive")
+			(uuid "faf1e459-6b9d-43e7-ad5d-75a45f8739e1")
+		)
+		(pad "2" smd roundrect
+			(at 0.8625 0 180)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "2dbb3c18-7cdc-46c6-ac44-49c7b1a6058f")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4788,266 +4741,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "788a3143-70f8-47cd-87bd-827236d18dea")
-		(at 2.175 2.175)
-		(descr "Mounting Hole 2.2mm, M2, ISO14580")
-		(tags "mounting hole 2.2mm m2 iso14580")
-		(property "Reference" "H1"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "563acaa0-1104-4503-82a7-b34388fc6187")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "7eb99b4d-9a79-44a8-9ad8-a50fc5c6842d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38666e1c-8b31-45da-8bca-e0f3b5fb3167")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7440993-6511-42c9-abe4-6ccb1db347ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c63afa0-7de9-41ba-8ef5-b49473ec1d47")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "8cbb7c10-817d-43b5-b8ca-12bfbe54bdb8")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "1b3dcbae-7098-46a9-951e-16f2cda7fae7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "11d98435-88dd-4f2b-8b70-1d9f80369b3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "389560db-9bac-4045-90d4-6561ad217d79")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(uuid "b7787a38-8b05-47c1-a237-0b828303bf4b")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(uuid "1ab5f8e0-59bc-4410-82d4-83e641aab7a2")
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "79e64028-8e5d-4769-bb3b-1c10254ffc4d")
-		(at 2.175 12.875)
-		(descr "Mounting Hole 2.2mm, M2, DIN965")
-		(tags "mounting hole 2.2mm m2 din965")
-		(property "Reference" "H3"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "9c71759e-05f5-4c71-a0ea-d6f57184138c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "5f294956-0809-48f8-ba05-3eaab876708c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "077bc235-e4c1-41f5-a439-ee446fdb17ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07223057-0b8f-469c-91b5-100f4c69f04a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c40e20ae-9be0-45f9-953a-1d75135c4b29")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/a9174b7c-ca63-4a06-b62f-8f2447f76d59")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "5e95c142-6d3d-45e5-bd4b-d63636c28e61")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "69131da6-0389-40b3-ad66-c3d23452c967")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "0f9edf64-6903-42b7-b6c5-f3e0bc667887")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "6ef9005e-57f5-4863-90e0-179959b64148")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "e0ef2f31-8989-4b76-a284-8a2884a80c04")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "d54ec0c2-7f16-4371-bdf1-fcec0558c362")
-		)
-	)
 	(footprint "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "7ad76af5-104e-4659-9253-fee4e8a31cff")
@@ -6527,141 +6220,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "86c90aa8-fde6-4ddf-87e6-b48afb7fdb9a")
-		(at 2.175 2.175)
-		(descr "Mounting Hole 2.2mm, M2, DIN965")
-		(tags "mounting hole 2.2mm m2 din965")
-		(property "Reference" "H1"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "e63ffe7e-d769-4352-8560-886b73e856dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "fe47ecba-34fd-43b9-a803-dc08ec2518c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0fb6813b-daa9-4312-a4b5-1e7f8e5dd9b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46823d6d-308f-4695-af3b-f2aaf94df2cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "443204ca-00b7-480a-bc4b-5f5b05b1a48d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/387e0b75-3597-415f-b19d-78c701bb5b0f")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "ba227b7e-36d5-4ab0-8aad-253103223acf")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "5debe65c-8bb8-4af5-89f5-1117a1bbb8ce")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "49ffba21-8c02-44f4-ba2a-35c40038bc23")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "0770bada-d529-474d-b301-65e08837c098")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "f496d4ac-f0ab-48a2-983a-153976dac3a6")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "60544678-e28b-4325-ab15-d2a5d6e71e7d")
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8e8faa2c-f6cb-4ae6-a68f-d9963223fb5e")
@@ -7088,6 +6646,358 @@
 			)
 		)
 	)
+	(footprint "EVP_AWCD4A (1):SW_EVP-AWCD4A"
+		(layer "F.Cu")
+		(uuid "99c08261-7bc0-41a3-82f9-3ebfead59651")
+		(at 127.8 107.165 -90)
+		(property "Reference" "S1"
+			(at -0.985855 -1.455943 90)
+			(layer "F.SilkS")
+			(uuid "89e87966-cb1b-48a8-b3de-a9b01106c3ff")
+			(effects
+				(font
+					(size 0.320603 0.320603)
+					(thickness 0.080151)
+				)
+			)
+		)
+		(property "Value" "EVP-AWCD4A"
+			(at 0.643575 1.551574 90)
+			(layer "F.Fab")
+			(uuid "0b9232aa-33c7-44b8-83d8-af0c3befe8c3")
+			(effects
+				(font
+					(size 0.320987 0.320987)
+					(thickness 0.080247)
+				)
+			)
+		)
+		(property "Footprint" "EVP_AWCD4A (1):SW_EVP-AWCD4A"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2981efaf-da22-4b8a-9385-9791cefda488")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57507630-be3c-400c-b496-f03dffc3a6ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f739543-4d5a-4b89-80ef-6926206d197d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a774ec4-c194-4a47-b615-9ffe804e0707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DESCRIPTION" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4186836a-3259-4967-83f0-abe312bd7c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fc73e50-4556-460e-a73e-488c185a28c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PRICE" "None"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "378a5a9b-3d43-4651-8c64-d5fe98f6b47e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "EVP-AWBD2A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8da44171-36cf-483f-93c3-8c1871491041")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AVAILABILITY" "Bad"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "702dfad4-08ae-4c0b-8da9-29a9b5a81dab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/86fcb13c-3e93-4667-86dd-95023f999b9d")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.1 1)
+			(end -1.1 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b85f541c-3818-474b-a4bd-a25bf1dbd122")
+		)
+		(fp_line
+			(start -1.1 -1)
+			(end 1.1 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "addd9d94-80e8-4469-8e64-07e3edce4ccd")
+		)
+		(fp_circle
+			(center -2.4 0)
+			(end -2.3 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "c2909b48-4363-445f-87a4-ba8925274f44")
+		)
+		(fp_line
+			(start -2.15 1.25)
+			(end -2.15 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee9e810a-9a34-434f-8728-9c19becbe363")
+		)
+		(fp_line
+			(start 2.15 1.25)
+			(end -2.15 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "afeb96d8-1d45-4839-b2db-cdf5dbc5c844")
+		)
+		(fp_line
+			(start -2.15 -1.25)
+			(end 2.15 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b8e104ec-b35a-4c24-b1ac-088312e7474f")
+		)
+		(fp_line
+			(start 2.15 -1.25)
+			(end 2.15 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7988591e-bfad-4515-a292-86119a7506eb")
+		)
+		(fp_line
+			(start -1.5 1)
+			(end -1.5 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1267773b-345f-4155-8651-3c3de61017b6")
+		)
+		(fp_line
+			(start 1.5 1)
+			(end -1.5 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "90e8b5eb-47bd-4a3e-b35e-e5accc32a2d7")
+		)
+		(fp_line
+			(start -1.5 -1)
+			(end 1.5 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0008b06c-d598-4e92-a45c-83d1e5509d84")
+		)
+		(fp_line
+			(start 1.5 -1)
+			(end 1.5 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "357c87e9-b47e-43bd-9f32-5108c3a557db")
+		)
+		(fp_circle
+			(center -2.4 0)
+			(end -2.3 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "b01b40d6-e0bd-4388-aa87-952bef9f2198")
+		)
+		(pad "1" smd rect
+			(at -1.625 0 270)
+			(size 0.55 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "/ESP_EN")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2ea0059d-1dda-4334-a388-c59e6b157168")
+		)
+		(pad "2" smd rect
+			(at 1.625 0 270)
+			(size 0.55 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f8624667-cf0f-41fb-8d42-920de25325dc")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.Cu")
+			(uuid "93fbfa3c-7e04-4c99-96d8-a0bcac9eea63")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.01)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+			)
+			(polygon
+				(pts
+					(xy 128.8 106.215) (xy 128.8 108.115) (xy 126.8 108.115) (xy 126.8 106.215)
+				)
+			)
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "*.Cu")
+			(uuid "311b8762-b8d6-47e3-a933-eee955f1599b")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.01)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+			)
+			(polygon
+				(pts
+					(xy 128.8 106.215) (xy 128.8 108.115) (xy 126.8 108.115) (xy 126.8 106.215)
+				)
+			)
+		)
+		(model "C:/Users/rahim/Downloads/KiCad Components/EVP_AWCD4A (1)/EVP-AWCD4A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9fcf48ed-b222-4ea2-a57e-916fc15b1a78")
@@ -7298,6 +7208,358 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "EVP_AWCD4A (1):SW_EVP-AWCD4A"
+		(layer "F.Cu")
+		(uuid "b0391929-bf09-4786-9e86-b2b7f3a310b0")
+		(at 130.73 111.78 180)
+		(property "Reference" "S2"
+			(at -0.985855 -1.455943 360)
+			(layer "F.SilkS")
+			(uuid "faf3c9c2-7ce3-415a-b744-165b93616e1b")
+			(effects
+				(font
+					(size 0.320603 0.320603)
+					(thickness 0.080151)
+				)
+			)
+		)
+		(property "Value" "EVP-AWCD4A"
+			(at 0.643575 1.551574 360)
+			(layer "F.Fab")
+			(uuid "60df33d7-e726-4b2a-9582-c399b7499d24")
+			(effects
+				(font
+					(size 0.320987 0.320987)
+					(thickness 0.080247)
+				)
+			)
+		)
+		(property "Footprint" "EVP_AWCD4A (1):SW_EVP-AWCD4A"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a569d22-5e02-4b00-856e-7d07972e3089")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d5c4a32-584e-4408-8ac5-b6cc3bd63e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "151ab08d-a208-48eb-8a26-4996de249cdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e056032-ad06-4ba7-9c95-36951948f0be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DESCRIPTION" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8df90ef-bdc8-4dcd-9e62-19a58cb255c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7488643e-da3c-47b6-9487-99b4cf2d9d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PRICE" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "068ec601-0972-4b6a-901c-3dd3997c8e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "EVP-AWBD2A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "306056d6-ce13-40cf-9194-4a8843b31b01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AVAILABILITY" "Bad"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ba60cb9-7f9b-4b9d-9d73-88a150052e58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d2c08e6f-72bf-4428-8b1b-790605b596bb")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.1 1)
+			(end -1.1 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1c6f144-5228-4d87-941e-2f4528eae20d")
+		)
+		(fp_line
+			(start -1.1 -1)
+			(end 1.1 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8071e26-4d25-4529-aafa-ef4f46661e07")
+		)
+		(fp_circle
+			(center -2.4 0)
+			(end -2.3 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b670a54e-a3fb-4cf9-9521-e3b34b146087")
+		)
+		(fp_line
+			(start 2.15 1.25)
+			(end -2.15 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "37d48bb0-43f9-4d2b-bc61-1f53191f6ca7")
+		)
+		(fp_line
+			(start 2.15 -1.25)
+			(end 2.15 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "467f8f6a-c394-4929-b119-8d99455c32db")
+		)
+		(fp_line
+			(start -2.15 1.25)
+			(end -2.15 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a077680-0044-42bb-a8e9-f43f03647a70")
+		)
+		(fp_line
+			(start -2.15 -1.25)
+			(end 2.15 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da726c32-5d3a-4c27-9e68-856712532599")
+		)
+		(fp_line
+			(start 1.5 1)
+			(end -1.5 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0de550ea-934a-4f87-9af2-aa1e7725edb2")
+		)
+		(fp_line
+			(start 1.5 -1)
+			(end 1.5 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16a79886-28f4-4dfc-b68c-9ff29c8be5ec")
+		)
+		(fp_line
+			(start -1.5 1)
+			(end -1.5 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1cfb01cc-a98e-42e3-878f-9860abcf42f0")
+		)
+		(fp_line
+			(start -1.5 -1)
+			(end 1.5 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d813e403-50c3-4ac3-8905-2fe18dac5e05")
+		)
+		(fp_circle
+			(center -2.4 0)
+			(end -2.3 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "8efadb48-7d61-42d1-b542-8e6634deb3df")
+		)
+		(pad "1" smd rect
+			(at -1.625 0 180)
+			(size 0.55 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 33 "/Boot_Strap_9")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "865a4d66-ed04-4b14-bf1f-11bc428db4c9")
+		)
+		(pad "2" smd rect
+			(at 1.625 0 180)
+			(size 0.55 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "85ce88bc-c100-4a92-ad2e-a29ef662a0a0")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.Cu")
+			(uuid "af84b43c-f15a-4233-bf14-56b6a52cc978")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.01)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+			)
+			(polygon
+				(pts
+					(xy 131.68 112.78) (xy 129.78 112.78) (xy 129.78 110.78) (xy 131.68 110.78)
+				)
+			)
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "*.Cu")
+			(uuid "135423b7-4014-4055-a8ff-2443c65fd70b")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.01)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+			)
+			(polygon
+				(pts
+					(xy 131.68 112.78) (xy 129.78 112.78) (xy 129.78 110.78) (xy 131.68 110.78)
+				)
+			)
+		)
+		(model "C:/Users/rahim/Downloads/KiCad Components/EVP_AWCD4A (1)/EVP-AWCD4A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -7512,141 +7774,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "b6671d9a-4512-40c2-9594-d74eab8efa31")
-		(at 2.175 7.525)
-		(descr "Mounting Hole 2.2mm, M2, DIN965")
-		(tags "mounting hole 2.2mm m2 din965")
-		(property "Reference" "H2"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "243c4842-5e84-4e78-a986-66fde857c5d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "4a44303f-bbd3-4c28-b542-98f26d21c748")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eaf1211b-fd31-4828-90a0-44ef9726b276")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61ddba30-98c6-4eea-b13c-0c6f3877134f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b228a2a-f915-4db7-b585-07706c0f37dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/70bbf351-ecf1-4bdd-843e-a3e62734ca29")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "a582eb0e-50a8-45ac-ab13-d820a0691d15")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "bc1dd701-400d-49b3-bdfc-c5dff26c1577")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "80147587-1d39-4111-a852-67e7378907a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "67ff8cfe-79f7-461c-a818-29c95a87edbc")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "9602b7f2-6cc0-4a2d-91bd-60b31fff19d5")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "df3d92c9-c103-4c5c-90e2-da4ce04e1e6d")
 		)
 	)
 	(footprint "DMG2305UX_7 (1):SOT91P240X110-3N_DMG2305UX-7"
@@ -7980,6 +8107,219 @@
 			)
 			(rotate
 				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "bd457381-eaec-46ad-b22a-741d129c5039")
+		(at 126.9375 102.48 180)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C10"
+			(at 0.0075 -1.42 360)
+			(layer "F.SilkS")
+			(uuid "b3c8e166-d7a6-42fc-9da4-6c318a03aa79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 0 1.43 360)
+			(layer "F.Fab")
+			(uuid "c878199d-2589-4f28-aa4b-1bd7287ace34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a80024a7-b82d-467a-b3d2-e863ba8aa76d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fa970cb-713e-4599-9887-ebbd1349b3fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e857e5e8-22e4-4511-870f-46224c1d7d9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/7effe2c0-b53c-4481-bc4d-527553ac40c0")
+		(sheetname "Root")
+		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef4b705c-b0b1-43f2-a5a9-685abeb3de45")
+		)
+		(fp_line
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "74660765-e5c1-4423-86b0-536ca3bdeae3")
+		)
+		(fp_line
+			(start 1.65 0.73)
+			(end -1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "320b1c31-9211-48c1-bcdb-84dfbd39c8ac")
+		)
+		(fp_line
+			(start 1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6260e106-6eef-4f35-8561-47730b7ae57a")
+		)
+		(fp_line
+			(start -1.65 0.73)
+			(end -1.65 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6b72a0eb-1f0b-4170-bdb0-5aa45b021e69")
+		)
+		(fp_line
+			(start -1.65 -0.73)
+			(end 1.65 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "90538469-74d9-43c1-9ea0-cb9be4e0d7c6")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd971186-fa2d-4f3a-aba8-7ae26c539bb6")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "408bd914-d4bf-4bb9-a259-ff002c2e6e94")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "822bafcf-21e6-4abc-9007-1ca36502a1b5")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "883efeba-f05e-4c66-a1a5-5c209a1c957e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(uuid "ae8d507d-ec93-41f4-9773-472b206866d9")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.8625 0 180)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 6 "/ESP_EN")
+			(pintype "passive")
+			(uuid "1783e331-20f4-4604-afbd-fdeeaeb3f5f3")
+		)
+		(pad "2" smd roundrect
+			(at 0.8625 0 180)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "bb14f5dc-205a-4c34-bd02-52aa2ed71690")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -8925,256 +9265,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "d91a5728-fe05-4334-8b4d-1385a2a78540")
-		(at 2.175 7.525)
-		(descr "Mounting Hole 2.2mm, M2, ISO14580")
-		(tags "mounting hole 2.2mm m2 iso14580")
-		(property "Reference" "H2"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "7c15a403-6187-4c98-ba70-2faf55a3ece1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "12b90a09-1053-4c87-ab17-951edd39f4cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "610e0eb5-04c3-4a63-8407-6e45d92718a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50d3a871-f2d1-450e-8ca6-35c934cb39be")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf738b77-1e6c-4272-9853-74bdc750b2ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "6e108fb4-2921-4565-b3d9-40500b108ff0")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "4602659c-c878-4b21-8c68-acd38294e5da")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "bff44dd3-3539-4267-81b2-73842fd028ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "1dc179f3-7126-47ca-91fd-91e09fb5259a")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(uuid "a0df7c8c-f3c0-4502-b4b0-9ac1afd43a81")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(uuid "46d6e69a-8930-4565-adf5-f43537e10237")
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "e0415e48-631f-4f86-90d8-dbb83612be24")
-		(at 2.175 12.875)
-		(descr "Mounting Hole 2.2mm, M2, ISO14580")
-		(tags "mounting hole 2.2mm m2 iso14580")
-		(property "Reference" "H3"
-			(at 0 -2.9 0)
-			(layer "F.SilkS")
-			(uuid "cf6fa419-a80d-40ae-a37f-48312733da72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 2.9 0)
-			(layer "F.Fab")
-			(uuid "9f0f55e3-8b6d-45fe-978d-2d6b6227beb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b65ae8f7-09df-4b6b-8a6e-ea9cd062aeb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8bb25d48-cfb6-4c89-87cd-85b95acd76c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37e0ab35-8337-4d6c-b706-da782d4de5d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "Root")
-		(sheetfile "Bluetooth-Speaker-KiCad.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "5d202db0-0d0d-45ca-8a2a-7ddccb585785")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.15 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "7a7ec9b9-bdbc-42dc-8f3e-a99977859762")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "7a074dc8-3af1-49b1-8860-8a8f28eb55de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.6 2.6)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "ebc1dcbc-a4d7-461b-868e-8d08e1c627dc")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "F.Cu" "F.Mask")
-			(uuid "6fb3cf8e-28c2-4c82-bfa1-112830cd6355")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 3.8 3.8)
-			(layers "B.Cu" "B.Mask")
-			(uuid "caeb18ef-d3f1-42b2-a396-201a04bafeb6")
 		)
 	)
 	(footprint "RT6150B-33GQW:SON50P250X250X80-11N"
@@ -10807,7 +10897,7 @@
 	(segment
 		(start 139.02 100.73)
 		(end 135 96.71)
-		(width 0.3)
+		(width 0.5)
 		(layer "In2.Cu")
 		(net 5)
 		(uuid "1cdba568-e2d1-4334-ae58-b1cf815f0034")
@@ -10815,7 +10905,7 @@
 	(segment
 		(start 139.02 111.25)
 		(end 139.02 100.73)
-		(width 0.3)
+		(width 0.5)
 		(layer "In2.Cu")
 		(net 5)
 		(uuid "1fe8da27-29a8-4217-a420-9e1824154133")
@@ -10853,12 +10943,52 @@
 		(uuid "dd0df994-121a-443c-b90b-06591bb56140")
 	)
 	(segment
+		(start 131.86 100.71)
+		(end 131.85 100.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "10379667-e6ee-48d3-bf65-ad59e7da2f27")
+	)
+	(segment
+		(start 131.86 100.89)
+		(end 131.86 100.71)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "1fb305e1-b295-4b5f-9376-63fa7dbb9100")
+	)
+	(segment
+		(start 127.8 102.48)
+		(end 130.27 102.48)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "3ec60194-e17f-440a-ac77-82a4cf617f03")
+	)
+	(segment
 		(start 135.255 98.525)
 		(end 133.5 98.525)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 6)
 		(uuid "4f9a133c-e40e-47f4-94c1-bf65e6cc7b3f")
+	)
+	(segment
+		(start 130.27 102.48)
+		(end 131.86 100.89)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "65e69fae-b78b-4a22-8875-02c673c52337")
+	)
+	(segment
+		(start 127.8 102.48)
+		(end 127.8 105.54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "72feaaa6-fcb3-4b05-ad2a-d0727d966465")
 	)
 	(segment
 		(start 131.85 98.525)
@@ -10875,6 +11005,14 @@
 		(layer "F.Cu")
 		(net 6)
 		(uuid "c514cf28-9128-4b33-8868-5c4a7e15537c")
+	)
+	(segment
+		(start 131.85 100.7)
+		(end 131.85 98.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "dde7f0b1-5069-43f5-8b65-769e501f236a")
 	)
 	(segment
 		(start 137.19 98.2)
@@ -11402,6 +11540,46 @@
 		(layer "B.Cu")
 		(net 30)
 		(uuid "bb7faf08-30d8-474f-b0e8-4cd84c878bd6")
+	)
+	(segment
+		(start 132.64 107.2)
+		(end 132.3625 107.4775)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 33)
+		(uuid "2c194939-f0a4-4762-b7d2-96c5112040d6")
+	)
+	(segment
+		(start 132.355 108.5075)
+		(end 132.3625 108.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 33)
+		(uuid "78bfa53c-3157-4d8e-b172-dcc62032a3ba")
+	)
+	(segment
+		(start 132.355 111.78)
+		(end 132.355 108.5075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 33)
+		(uuid "b30790de-446c-44d2-931a-75e1cedcf9f1")
+	)
+	(segment
+		(start 137.19 107.2)
+		(end 132.64 107.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 33)
+		(uuid "e2b4375f-89ce-45ac-b547-70b12a0fbadc")
+	)
+	(segment
+		(start 132.3625 107.4775)
+		(end 132.3625 108.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 33)
+		(uuid "f4a9a9fb-61c5-4936-8d39-adf9652d5fd5")
 	)
 	(segment
 		(start 157 104.2)
