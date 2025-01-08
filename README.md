@@ -2,7 +2,7 @@
  PCB design for a custom bluetooth speaker
 
 <p align="center">
-    <img title="KiCad PCB Render" alt="KiCad PCB Render" src="./Images/Bluetooth-Speaker-KiCad-Render.png" width ="75%">
+    <img title="KiCad PCB Render" alt="KiCad PCB Render" src="./Blender_Render/Bluetooth-Speaker_Render_Output.png" width ="75%">
 </p>
 <p align="center"><i>KiCad Render</i></p>
 
